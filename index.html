@@ -17,14 +17,14 @@
             <a class="navbar-brand" href="#">
                 <img src="image/logo_1.png" alt="logo">
             </a>
-            <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">shoes</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">shoes</a>
                     <a class="nav-link" href="#">backpack</a>
                     <a class="nav-link" href="#">subscribe</a>
                 </div>
@@ -39,15 +39,15 @@
                 <div class="carousel-item active f-color">
                     <div class="row">
                         <div class="d-flex align-items-center p-5 ">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 order-lg-1 order-2">
                                 <h1>container-fluid</h1>
                                 <p>this is the best headphone in the world for people who just want to waste time in
                                     fron of frunky world</p>
                                 <h1>$420</h1>
                                 <button class="btn c-btn">Buy Now</button>
                             </div>
-                            <div class="col-lg-5">
-                                <img src="image/headphone.png" class="d-block w-100" alt="#">
+                            <div class="col-lg-5 ">
+                                <img src="image/headphone.png" class="d-block w-100 " alt="#">
                             </div>
                         </div>
                     </div>
@@ -55,14 +55,14 @@
                 <div class="carousel-item f-color">
                     <div class="row">
                         <div class="d-flex align-items-center p-5">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 order-lg-1 order-2">
                                 <h1>container-fluid</h1>
                                 <p>this is the best headphone in the world for people who just want to waste time in
                                     fron of frunky world</p>
                                 <h1>$1200</h1>
                                 <button class="btn c-btn">Buy Now</button>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 order-lg-2 order-1">
                                 <img src="image/tv.png" class="d-block w-100" alt="#">
                             </div>
                         </div>
@@ -71,14 +71,14 @@
                 <div class="carousel-item f-color">
                     <div class="row">
                         <div class="d-flex align-items-center p-5">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 order-lg-1 order-2">
                                 <h1>container-fluid</h1>
                                 <p>this is the best headphone in the world for people who just want to waste time in
                                     fron of frunky world</p>
                                 <h1>$600</h1>
                                 <button class="btn c-btn">Buy Now</button>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 order-lg-2 order-1">
                                 <img src="image/xbox.png" class="d-block w-100" alt="#">
                             </div>
                         </div>
@@ -97,22 +97,28 @@
     </div>
     <!-- carousel end -->
     <!-- category start -->
-    <div class="container text-center my-5">
-        <div class="row g-2">
-          <div class="col-4 border bg-warning d-flex align-items-center rounded-3 justify-content-center justify-content-around">
-            <div class="p-3"><h1>watch</h1></div>
-            <div><img src="image/watch.png" alt=""></div>
+    <div class="container overflow-hidden text-center ">
+      <div class="row my-4 ">
+        <div class="col-4 ">
+         <div class="bg-warning d-flex justify-content-around align-items-center rounded-3">
+          <h1>Watch</h1>
+         <img src="image/watch.png" alt="watch">
+        </div>
+        </div>
+        <div class="col-4">
+          <div class="bg-primary d-flex justify-content-around align-items-center rounded-3">
+            <h1>Bag</h1>
+            <img src="image/bag.png" alt="bag">
           </div>
-          <div class="col-4 border bg-success d-flex align-items-center rounded-3 justify-content-center justify-content-around">
-            <div class="p-3"><h1>bag</h1></div>
-            <div><img src="image/bag.png" alt=""></div>
-          </div>
-          <div class="col-4 border bg-primary d-flex align-items-center rounded-3 justify-content-center justify-content-around">
-            <div class="p-3"><h1>shoes</h1></div>
-            <div><img src="image/shoes.png" alt=""></div>
+        </div>
+        <div class="col-4">
+          <div class="bg-success d-flex justify-content-around align-items-center rounded-3">
+            <h1>Shoes</h1>
+           <img src="image/shoes.png" alt="shoes">
           </div>
         </div>
       </div>
+    </div>
     <!-- category end -->
     <!-- shoes card collection start -->
     <div class="container">
